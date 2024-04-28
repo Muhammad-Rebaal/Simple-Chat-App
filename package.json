@@ -1,0 +1,27 @@
+{
+  "name": "simple-chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammad-Rebaal/Simple-Chat-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muhammad-Rebaal/Simple-Chat-App/issues"
+  },
+  "homepage": "https://github.com/Muhammad-Rebaal/Simple-Chat-App#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
