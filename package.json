@@ -1,27 +1,24 @@
 {
-  "name": "simple-chat-app",
+  "name": "chatter",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+  
+    "start": "nodemon ./index.js",
+    "test": "DEBUG=* nodemon ./index.js --exec babel-node -e js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Muhammad-Rebaal/Simple-Chat-App.git"
-  },
-  "author": "",
+  "author": "Emmanuel Henri",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Muhammad-Rebaal/Simple-Chat-App/issues"
-  },
-  "homepage": "https://github.com/Muhammad-Rebaal/Simple-Chat-App#readme",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "socket.io": "^4.7.5"
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1",
+    "socket.io": "^2.0.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-0": "^6.24.1"
   }
 }
+
